@@ -1,0 +1,78 @@
+SOURCE: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+
+# ABOUT DATASET
+	
+The dataset is a Retail dataset of a global store for 4 years. It was downloaded as a CSV file and it was converted to an excel file before the analysis . However, containing 23 columns and 9994 rows. The column details include the Row ID, Order ID, Ship mode,   Order Date, Ship Date, Customer ID, Customer Name, Segment , Country, City, State, Postal Code, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit, Profit Margin.
+
+<img width="926" alt="data sets" src="https://user-images.githubusercontent.com/127934829/226141584-d8471ae7-c0a0-495a-a90d-c0222044c79c.png">
+
+                          CLEANED DATASET
+
+## DATA PROCESSING 
+
+	Dataset was downloaded from Kaggle .
+
+	Remove Duplicate
+
+	Convert data type to where necessary 
+
+	Then I transform my cleaned dataset using the power bi app.
+
+The steps in cleaning a datasets can varies depending on the data used .
+
+DATA ANALYSIS
+The dataset was transform in the power bi app where I removed unnecessary column,I renamed my dimension table after removing  the unwanted columns,  I also included the date table extracted the year, week and quarter. 
+
+<img width="260" alt="power bi 2" src="https://user-images.githubusercontent.com/127934829/226141616-51943a3a-19f2-4c2f-91a9-2a9e505ea618.png">
+
+            TRANSFORMED DATA
+
+                      
+<img width="313" alt="date" src="https://user-images.githubusercontent.com/127934829/226141648-7083f43a-c570-4f1a-8e17-e0f004c6de3f.png">
+    DATE 
+
+Then I created a model to connect my data together in the power bi app. This analysis doesn’t require a pivot table since I am using the power bi.
+
+<img width="860" alt="model power bi" src="https://user-images.githubusercontent.com/127934829/226141668-c2da948b-b99f-4cd4-9edf-dc4a31d62265.png">
+
+
+### DATA VISUALIZATION
+
+Below are the  various steps involved in data visualization.
+
+	Prepare a sketch dashboard
+
+	Use the best chart type to represent your data
+
+	Create a chart for each of the datasets
+
+	Slicers was included on the dashboard which involve drop list
+
+	Reference values where necessary such as total numbers or count of data. etc
+
+A Sketch Dashboard
+
+
+<img width="601" alt="sul" src="https://user-images.githubusercontent.com/127934829/226142051-95bd4ac5-d220-4e6e-86ae-c447b47c0981.png">
+
+Below is the final dashboard
+
+
+<img width="628" alt="page 1" src="https://user-images.githubusercontent.com/127934829/226142090-e6982e5a-9b04-49fb-963a-f7a720861242.png">
+
+
+<img width="633" alt="page 2" src="https://user-images.githubusercontent.com/127934829/226142099-428f08a8-31c7-4fea-b219-2b2c4d340214.png">
+
+
+<img width="613" alt="page 3" src="https://user-images.githubusercontent.com/127934829/226142107-4e20b02f-b71b-45a2-a68b-6f382ad21b66.png">
+
+INSIGHTS
+
+
+•	Office supplies as the highest quantity in the category section with 60.48% where furniture and technology as 21.2% and 18.32% respectively.
+
+•	Higher sales of product are made in the western region while the least sales was made in south region.
+
+•	Also the dashboard include the sum of quantity by state, sum of profit by state, sum of sales by state, sum of sales by regions, sum of sales by product e.t.c. 
+
+Recommendations, comment and advice on ways of improving in my this skill will be appreciated.
